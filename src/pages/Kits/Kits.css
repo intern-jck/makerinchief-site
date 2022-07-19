@@ -1,0 +1,33 @@
+.Kits {
+  border: 4px solid black;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kits-header {
+  text-align: center;
+}
+
+.kits-content {
+  border: 2px solid blue;
+  margin: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw
+}
+
+.kits-item {
+  border: 2px solid green;
+  cursor: pointer;
+  margin: 1em;
+  width: 40em;
+  height: 40em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

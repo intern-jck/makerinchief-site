@@ -4,12 +4,12 @@ import Kits from './pages/Kits/Kits.jsx';
 import Resources from './pages/Resources/Resources.jsx';
 import './App.css';
 
-import kits from './data/kitsInfo.json';
+// import kits from './data/kitsInfo.json';
 import resources from './data/resources.json';
 
 const App = () => {
 
-  const [page, setPage] = useState('Home');
+  const [page, setPage] = useState('Kits');
 
   const pageHandler = (page) => {
     console.log('viewing ', page)
@@ -30,9 +30,11 @@ const App = () => {
       currentPage = <Home updatePage={pageHandler}/>;
       break;
     case 'Kits':
-      currentPage = <Kits kitsData={kits}/>;
+      console.log('viewing kits')
+      currentPage = <Kits />;
       break;
     case 'Resources':
+      console.log('viewing resources')
       currentPage = <Resources resourcesData={resources}/>;
       break;
   }

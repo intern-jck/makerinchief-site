@@ -1,12 +1,12 @@
 import React from "react";
 import './Resources.css';
 
-const Kit = () => {
+const Resources = () => {
   return (
-    <div className="kit-div">
-      <h1>Kit</h1>
+    <div className="Resources">
+      <h1>Resources</h1>
     </div>
   )
 };
 
-export default Kit;
+export default Resources;
