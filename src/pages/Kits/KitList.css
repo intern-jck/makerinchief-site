@@ -1,4 +1,4 @@
-.Kits {
+.KitList {
   border: 4px solid black;
   margin: 1em;
   display: flex;
@@ -6,13 +6,13 @@
   justify-content: center;
 }
 
-.kits-header {
+.kit-list-header {
   border: 2px solid blue;
   margin: 1em;
   text-align: center;
 }
 
-.kits-content {
+.kit-list-content {
   border: 2px solid blue;
   margin: 1em;
   display: flex;
@@ -21,4 +21,3 @@
   justify-content: center;
   gap: 1em;
 }
-

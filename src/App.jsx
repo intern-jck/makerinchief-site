@@ -4,7 +4,6 @@ import Kits from './pages/Kits/Kits.jsx';
 import Resources from './pages/Resources/Resources.jsx';
 import './App.css';
 
-// import kits from './data/kitsInfo.json';
 import resources from './data/resources.json';
 
 const App = () => {

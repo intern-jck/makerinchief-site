@@ -5,7 +5,10 @@ const Kit = () => {
 
   return (
     <div className="Kit">
-      <h1>Kit</h1>
+      <h1 className="kit-header">Kit</h1>
+      <div className="kit-content">
+
+      </div>
     </div>
   )
 };
