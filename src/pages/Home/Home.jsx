@@ -1,9 +1,8 @@
 import React from "react";
-import './Home.css';
-import homeImg from './intern-bot.jpg'
-
+import homeImg from './intern-bot.jpg';
 import kitsImg from './kits-img.jpg';
 import resourcesImg from './resources-img.png';
+import './Home.css';
 
 const Home = ({updatePage}) => {
 

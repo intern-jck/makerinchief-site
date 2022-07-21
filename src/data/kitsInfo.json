@@ -1,124 +1,122 @@
 {
-    "kits": [
-        {
-            "name": "Tank Bot",
-            "link": "tankbot",
-            "category": "bot",
-            "git-hub": "https://github.com/intern-jck/Tank-Bot",
-            "you-tube": "https://www.youtube.com/watch?v=hO762uOHBdM",
-            "short": "Four wheeled drive bot driven link a tank.",
-            "info": [
-                "The tank bot uses an Arduino Nano to control the 4 wheels via an L298N motor driver.  Parts are easy to come by and quick to setup.  3D printed connectors and wooden dowels make a strong structure.  Cardboard parts are laser cut to ensure accuracy."
+    "tank-bot": {
+        "name": "Tank Bot",
+        "link": "tank-bot",
+        "category": "bot",
+        "git-hub": "https://github.com/intern-jck/Tank-Bot",
+        "you-tube": "https://www.youtube.com/watch?v=hO762uOHBdM",
+        "short": "Four wheeled drive bot driven link a tank.",
+        "info": [
+            "The tank bot uses an Arduino Nano to control the 4 wheels via an L298N motor driver.  Parts are easy to come by and quick to setup.  3D printed connectors and wooden dowels make a strong structure.  Cardboard parts are laser cut to ensure accuracy."
+        ],
+        "tech": [
+            [
+                "Arduino Nano",
+                "https://www.arduino.cc/"
             ],
-            "tech": [
-                [
-                    "Arduino Nano",
-                    "https://www.arduino.cc/"
-                ],
-                [
-                    "NRF24l01",
-                    "#"
-                ],
-                [
-                    "L298N",
-                    "#"
-                ],
-                [
-                    "3D Printing",
-                    "#"
-                ],
-                [
-                    "Laser Cut",
-                    "#"
-                ]
+            [
+                "NRF24l01",
+                "#"
             ],
-            "photos": [
-                "/static/media/meka-bots/tank-bot/tank-bot-1.jpg",
-                "/static/media/meka-bots/tank-bot/tank-bot-2.jpg",
-                "/static/media/meka-bots/tank-bot/tank-bot-3.jpg",
-                "/static/media/meka-bots/tank-bot/tank-bot-4.jpg",
-                "/static/media/meka-bots/tank-bot/tank-bot-5.jpg",
-                "/static/media/meka-bots/tank-bot/tank-bot-6.jpg"
+            [
+                "L298N",
+                "#"
+            ],
+            [
+                "3D Printing",
+                "#"
+            ],
+            [
+                "Laser Cut",
+                "#"
             ]
+        ],
+        "photos": [
+            "meka-bots/tank-bot/tank-bot-1.jpg",
+            "meka-bots/tank-bot/tank-bot-2.jpg",
+            "meka-bots/tank-bot/tank-bot-3.jpg",
+            "meka-bots/tank-bot/tank-bot-4.jpg",
+            "meka-bots/tank-bot/tank-bot-5.jpg",
+            "meka-bots/tank-bot/tank-bot-6.jpg"
+        ]
         },
-        {
-            "name": "Controller Bot",
-            "link": "controllerbot",
-            "category": "bot",
-            "git-hub": "#",
-            "3d-files": "#",
-            "short": "Two joystick controller.",
-            "info": [
-                "The Controller Bot uses two joystick modules to control your bot using an NRF24L01 radio module.  An 16x2 LCD screen displays any data you want.  Parts are 3D printed using recycled PLA and laser cut from cardboard and wooden dowels."
+    "controller-bot": {
+        "name": "Controller Bot",
+        "link": "controller-bot",
+        "category": "bot",
+        "git-hub": "#",
+        "3d-files": "#",
+        "short": "Two joystick controller.",
+        "info": [
+            "The Controller Bot uses two joystick modules to control your bot using an NRF24L01 radio module.  An 16x2 LCD screen displays any data you want.  Parts are 3D printed using recycled PLA and laser cut from cardboard and wooden dowels."
+        ],
+        "tech": [
+            [
+                "Arduino Nano",
+                "https://www.arduino.cc/"
             ],
-            "tech": [
-                [
-                    "Arduino Nano",
-                    "https://www.arduino.cc/"
-                ],
-                [
-                    "NRF24l01",
-                    "#"
-                ],
-                [
-                    "LCD",
-                    "#"
-                ],
-                [
-                    "3D Printing",
-                    "#"
-                ],
-                [
-                    "Laser Cut",
-                    "#"
-                ]
+            [
+                "NRF24l01",
+                "#"
             ],
-            "photos": [
-                "/static/media/meka-bots/controller-bot/controller-bot-1.jpg",
-                "/static/media/meka-bots/controller-bot/controller-bot-2.jpg",
-                "/static/media/meka-bots/controller-bot/controller-bot-3.jpg",
-                "/static/media/meka-bots/controller-bot/controller-bot-4.jpg",
-                "/static/media/meka-bots/controller-bot/controller-bot-5.jpg",
-                "/static/media/meka-bots/controller-bot/controller-bot-6.jpg"
+            [
+                "LCD",
+                "#"
+            ],
+            [
+                "3D Printing",
+                "#"
+            ],
+            [
+                "Laser Cut",
+                "#"
             ]
+        ],
+        "photos": [
+            "meka-bots/controller-bot/controller-bot-1.jpg",
+            "meka-bots/controller-bot/controller-bot-2.jpg",
+            "meka-bots/controller-bot/controller-bot-3.jpg",
+            "meka-bots/controller-bot/controller-bot-4.jpg",
+            "meka-bots/controller-bot/controller-bot-5.jpg",
+            "meka-bots/controller-bot/controller-bot-6.jpg"
+        ]
         },
-        {
-            "name": "LED Lantern",
-            "link": "ledlantern",
-            "category": "led",
-            "git-hub": "#",
-            "3d-files": "#",
-            "short": "RGB LED Lantern.",
-            "info": [
-                "The lantern is laser cut from birch plywood and uses WS2812b LEDs to allow a wide range of colors."
+    "led-lantern": {
+        "name": "LED Lantern",
+        "link": "led-lantern",
+        "category": "led",
+        "git-hub": "#",
+        "3d-files": "#",
+        "short": "RGB LED Lantern.",
+        "info": [
+            "The lantern is laser cut from birch plywood and uses WS2812b LEDs to allow a wide range of colors."
+        ],
+        "tech": [
+            [
+                "Arduino Nano",
+                "https://www.arduino.cc/"
             ],
-            "tech": [
-                [
-                    "Arduino Nano",
-                    "https://www.arduino.cc/"
-                ],
-                [
-                    "NRF24l01",
-                    "#"
-                ],
-                [
-                    "WS2812b",
-                    "#"
-                ],
-                [
-                    "Laser Cut",
-                    "#"
-                ]
+            [
+                "NRF24l01",
+                "#"
             ],
-            "photos": [
-                "/static/media/led/led-lantern/led-lantern-1.png",
-                "/static/media/led/led-lantern/led-lantern-2.png",
-                "/static/media/led/led-lantern/led-lantern-3.png",
-                "/static/media/led/led-lantern/led-lantern-4.png",
-                "/static/media/led/led-lantern/led-lantern-5.png",
-                "/static/media/led/led-lantern/led-lantern-6.png",
-                "/static/media/led/led-lantern/led-lantern-7.png"
+            [
+                "WS2812b",
+                "#"
+            ],
+            [
+                "Laser Cut",
+                "#"
             ]
-        }
-    ]
+        ],
+        "photos": [
+            "led/led-lantern/led-lantern-1.png",
+            "led/led-lantern/led-lantern-2.png",
+            "led/led-lantern/led-lantern-3.png",
+            "led/led-lantern/led-lantern-4.png",
+            "led/led-lantern/led-lantern-5.png",
+            "led/led-lantern/led-lantern-6.png",
+            "led/led-lantern/led-lantern-7.png"
+        ]
+    }
 }

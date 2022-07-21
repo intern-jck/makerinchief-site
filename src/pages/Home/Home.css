@@ -7,6 +7,8 @@
 }
 
 .home-header {
+  border: 2px solid blue;
+  margin: 1em;
   text-align: center;
 }
 
@@ -17,12 +19,11 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 1vw
+  gap: 1em;
 }
 
 .home-item {
   border: 2px solid green;
-  cursor: pointer;
   margin: 1em;
   width: 40em;
   height: 40em;
@@ -43,6 +44,7 @@
 }
 
 .home-img img {
+  border: 2px solid black;
   cursor: pointer;
   object-fit: contain;
 }
@@ -50,4 +52,25 @@
 .home-item h2 {
   text-align: center;
   font-size: 200%;
+}
+
+@media only screen and (max-width: 540px) {
+
+  .home-content {
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-item {
+    width: 20em;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
