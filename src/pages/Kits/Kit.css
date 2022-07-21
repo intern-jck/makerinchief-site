@@ -1,0 +1,65 @@
+.Kit {
+  border: 4px solid black;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kit-header {
+  border: 2px solid blue;
+  margin: 1em;
+  text-align: center;
+}
+
+.kit-content {
+  border: 2px solid blue;
+  margin: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.kit-img{
+  border: 2px solid red;
+  margin: 1em;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kit-img img {
+  border: 2px solid black;
+  cursor: pointer;
+  object-fit: contain;
+}
+
+.kit-item h2 {
+  text-align: center;
+  font-size: 200%;
+}
+
+@media only screen and (max-width: 540px) {
+
+  .kit-content {
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* .kit-item {
+    width: 20em;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+
+}

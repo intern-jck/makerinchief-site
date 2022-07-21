@@ -1,13 +1,16 @@
 import React from "react";
 import './Kit.css';
 
-const Kit = () => {
-
+const Kit = ({kit, clickHandler, url}) => {
+  console.log(kit);
   return (
     <div className="Kit">
-      <h1 className="kit-header">Kit</h1>
+      <button>BACK</button>
+      <h1 className="kit-header">{kit.name}</h1>
       <div className="kit-content">
-
+        <div className="kit-img">
+          <img src={`${url}${kit.photos[0]}`}/>
+        </div>
       </div>
     </div>
   )

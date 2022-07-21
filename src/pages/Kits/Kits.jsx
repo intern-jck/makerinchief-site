@@ -9,10 +9,10 @@ import kitsData from '../../data/kitsInfo.json';
 
 const Kits = () => {
   console.log(kitsData);
-  const [view, setView] = useState('List');
+  const [view, setView] = useState('Kit');
   const [kitNames, setKitNames] = useState([]);
   const [kits, setKits] = useState(kitsData);
-  const [currentKit, setCurrentKit] = useState('');
+  const [currentKit, setCurrentKit] = useState('tank-bot');
 
   // Add useEffect to send GET request for data
   useEffect(() => {
@@ -40,7 +40,7 @@ const Kits = () => {
       break;
 
     case 'Kit':
-      currentDiv = <Kit kit={kits[currentKit]}/>;
+      currentDiv = <Kit kit={kits[currentKit]} clickHandler={viewHandler} url={LOCAL_URL}/>;
       break;
   }
 

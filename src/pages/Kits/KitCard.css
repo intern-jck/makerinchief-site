@@ -1,5 +1,5 @@
 .KitCard {
-  border: 2px solid black;
+  border: 4px solid black;
   width: 30em;
   height: 30em;
   margin: 1em;
@@ -12,11 +12,13 @@
 .kit-card-header {
   border: 2px solid blue;
   /* margin: 1em; */
+  max-height: 20%;
+  width: 100%;
   text-align: center;
 }
 
 .kit-card-img{
-  border: 2px solid red;
+  border: 2px solid blue;
   margin: 1em;
   width: 60%;
   height: 60%;
@@ -29,6 +31,11 @@
   border: 2px solid black;
   cursor: pointer;
   object-fit: contain;
+}
+
+.kit-card-short {
+  border: 2px solid blue;
+  max-height: 2em;
 }
 
 @media only screen and (max-width: 540px) {

@@ -5,7 +5,7 @@
         "category": "bot",
         "git-hub": "https://github.com/intern-jck/Tank-Bot",
         "you-tube": "https://www.youtube.com/watch?v=hO762uOHBdM",
-        "short": "Four wheeled drive bot driven link a tank.",
+        "short": "Four wheeled drive bot",
         "info": [
             "The tank bot uses an Arduino Nano to control the 4 wheels via an L298N motor driver.  Parts are easy to come by and quick to setup.  3D printed connectors and wooden dowels make a strong structure.  Cardboard parts are laser cut to ensure accuracy."
         ],
@@ -46,7 +46,7 @@
         "category": "bot",
         "git-hub": "#",
         "3d-files": "#",
-        "short": "Two joystick controller.",
+        "short": "Two joystick controller",
         "info": [
             "The Controller Bot uses two joystick modules to control your bot using an NRF24L01 radio module.  An 16x2 LCD screen displays any data you want.  Parts are 3D printed using recycled PLA and laser cut from cardboard and wooden dowels."
         ],
@@ -87,7 +87,7 @@
         "category": "led",
         "git-hub": "#",
         "3d-files": "#",
-        "short": "RGB LED Lantern.",
+        "short": "WS2812B RGB LED Lantern",
         "info": [
             "The lantern is laser cut from birch plywood and uses WS2812b LEDs to allow a wide range of colors."
         ],
