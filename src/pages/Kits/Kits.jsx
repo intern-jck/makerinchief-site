@@ -37,7 +37,6 @@ const Kits = () => {
         return <KitCard key={i} kit={kits[name]} clickHandler={viewHandler} url={LOCAL_URL}/>
       });
       break;
-
     case 'Kit':
       currentDiv = <Kit kit={kits[currentKit]} clickHandler={viewHandler} url={LOCAL_URL}/>;
       break;

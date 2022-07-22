@@ -41,10 +41,9 @@ const KitCarousel = ({ slides, url }) => {
         currentImage ?
           <div className={"carousel-content"}>
             <div className="carousel-img">
-              {/* <img
+              <img
                 hidden={false}
-                className={"carousel-image"}
-                src={`${url}${currentImage}`} /> */}
+                src={`${url}${currentImage}`} />
             </div>
           </div>
           : null
