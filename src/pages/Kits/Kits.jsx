@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from "react";
-// import KitList from './KitList.jsx';
 import Kit from './Kit.jsx';
 import KitCard from './KitCard.jsx';
 import './Kits.css';
