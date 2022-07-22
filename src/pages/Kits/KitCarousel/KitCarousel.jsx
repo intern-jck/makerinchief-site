@@ -49,15 +49,20 @@ const KitCarousel = ({ slides, url }) => {
           : null
       }
 
-      {/* <div className="carousel-indicator-div">
+      <div className="carousel-indicator-div">
         { current > 0 ?
-          <FaChevronLeft className="indicator-left-arrow onclick" onClick={prevSlide} size={20}/>
+          <FaChevronLeft
+            className="indicator-left-arrow onclick"
+            onClick={prevSlide}
+            size={40}/>
           : null
         }
         {
           images ? images.map((slide, index) => {
+            // console.log(slide)
             return (
               <div
+                className="carousel-indicator"
                 key={index}
                 name={index}
                 onClick={updateCurrentImage}/>
@@ -66,10 +71,13 @@ const KitCarousel = ({ slides, url }) => {
           : null
         }
         { current >= 0 && current != length - 1?
-          <FaChevronRight className="indicator-right-arrow onclick" onClick={nextSlide} size={20}/>
+          <FaChevronRight
+            className="indicator-right-arrow onclick"
+            onClick={nextSlide}
+            size={40}/>
           : null
         }
-      </div> */}
+      </div>
 
     </div>
   );

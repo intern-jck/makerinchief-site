@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
-import Kit from './Kit.jsx';
-import KitCard from './KitCard.jsx';
+import Kit from './Kit/Kit.jsx';
+import KitCard from './KitCard/KitCard.jsx';
 import './Kits.css';
 
 const LOCAL_URL = 'http://127.0.0.1:8080/assets/media/';
@@ -13,7 +13,6 @@ const Kits = () => {
   const [kits, setKits] = useState(kitsData);
   const [currentKit, setCurrentKit] = useState('tank-bot');
 
-  // Add useEffect to send GET request for data
   useEffect(() => {
     const keys = Object.keys(kitsData);
     setKitNames(keys);
@@ -31,8 +30,6 @@ const Kits = () => {
 
   switch(view) {
     case 'List':
-      // need this as a seperate div?
-      // currentDiv = <KitList kits={kits} updateView={viewHandler} url={LOCAL_URL}/>;
       currentDiv = kitNames.map((name, i) => {
         return <KitCard key={i} kit={kits[name]} clickHandler={viewHandler} url={LOCAL_URL}/>
       });

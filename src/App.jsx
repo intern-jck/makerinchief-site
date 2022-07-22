@@ -4,8 +4,6 @@ import Kits from './pages/Kits/Kits.jsx';
 import Resources from './pages/Resources/Resources.jsx';
 import './App.css';
 
-import resources from './data/resources.json';
-
 const App = () => {
 
   const [page, setPage] = useState('Kits');
@@ -34,7 +32,7 @@ const App = () => {
       break;
     case 'Resources':
       console.log('viewing resources')
-      currentPage = <Resources resourcesData={resources}/>;
+      currentPage = <Resources />;
       break;
   }
 
